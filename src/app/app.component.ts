@@ -5,11 +5,12 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { InterestComponent } from './interest/interest.component';
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, RouterLink, RouterLinkActive, HeaderComponent, WorkExperienceComponent,
-     EducationComponent, SkillsComponent, LanguagesComponent],
+     EducationComponent, SkillsComponent, LanguagesComponent, InterestComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
