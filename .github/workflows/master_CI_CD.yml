@@ -1,11 +1,11 @@
-name: release CI_CD
+name: master CI_CD
 on: 
   push:
-    branches: [ "release"]
+    branches: [ "master"]
   pull_request:
-    branches: [ "release"]
+    branches: [ "master"]
 jobs:
-  release_CI_CD:
+  master_CI_CD:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
