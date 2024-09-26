@@ -22,7 +22,18 @@ export class EducationComponent {
         {descripcion: ""}
       ]*/
     };
+    let prepa={
+      fecha:"2017-2020",
+      ubicacion:"Camino a chicola, Puerta grande",
+      facultad:"CBTIS142",
+      carrera:"Programacion",
+      /*Certificados: [
+        {descripcion: ""},
+        {descripcion: ""}
+      ]*/
+    };
     this.education.push(uni);
+    this.education.push(prepa);
     console.log(this.education);
   }
 }
