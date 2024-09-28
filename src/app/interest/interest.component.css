@@ -1,0 +1,53 @@
+.table-container {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+table {
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li ul li {
+    font-size: 14px;
+    color: white;
+}
+
+/* Estilos para las viñetas en forma de flechas */
+.interests-list li::before {
+    content: "➲"; /* Flecha */
+    color: hwb(345 69% 0%);
+    margin-right: 10px;
+}
